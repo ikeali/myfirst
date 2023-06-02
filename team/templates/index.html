@@ -1,0 +1,28 @@
+ {% extends 'base.html' %}
+ {% load static %} 
+ {% block header %} {% include 'header.html' %}{% endblock header %}
+ {% block content %}
+ <div class="container-fluid mt-5">
+   <img src="{% static '' %}img/images.jpg" style="height: 300px;" alt="">
+   <img src="{% static '' %}img/images 2.jpg" style="height: 250px;" alt="">
+   <img src="{% static '' %}img/hiring.jpg" style="height: 270px;" alt="">
+ </div>
+ <div class="view mt-5 ms-3">
+    <a href="{% url 'all_jobs' %}">View all jobs</a>
+  </div>
+ <div class="container-fluid cont mt-3 ">
+   <div class="row pt-3">
+       <h3>Contact Us</h3>
+       <div class="col-12 col-md-4 ms-3">
+           <p>email: <a href="">jobportal@gmail.com</a></p>
+           <p>mobile no: <a href="">09037739944</a></p>
+       </div>
+   </div>
+ </div>
+ {% endblock content %}
+    
+    
+ 
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>

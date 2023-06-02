@@ -1,0 +1,92 @@
+*{
+    padding-inline-start: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navbar-nav a{
+    color: white;
+}
+.cont{
+    background-color: #4f868c;
+    width: 100%;
+}
+.row h3{
+    color: blue;
+    margin-left: 3%;
+}
+.row {
+    color: white;
+    margin-left: 3%;
+}
+.row a{
+    color: red;
+}
+/* styling signup  */
+
+.signup{
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
+   border: 1px solid darkgoldenrod;
+   padding: 3%;
+   box-shadow: 0px 0px 30px blue;
+}
+.signup h3{
+    text-align: center;
+    margin-top: 3%;
+}
+/* styling signup done */
+
+/* styling content  */
+.view{
+    font-size: larger;
+    font-weight: 500;
+}
+/* styling content done */
+
+/* styling job_apply page  */
+
+.up form{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 5%;
+    background-color: aquamarine;
+}
+.comp form{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    border: 2px solid blue;
+    padding: 3%;
+    box-shadow: 0px 0px 30px blue;
+
+}
+/* styling all applicants */
+.app{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.app thead{
+    background-color:blue ;
+    text-transform: capitalize;
+    color: white;
+    padding-right: 3px;
+    text-align: center;
+}
+.item td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-weight: 500;
+    padding-right: 5px;
+    border: 2px solid blue;
+    text-align: center;
+
+}
+.item td button{
+    border: none;
+}
+/* styling all applicants done */
